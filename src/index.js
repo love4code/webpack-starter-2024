@@ -3,7 +3,7 @@ import generateJoke from './generateJoke'
 import './styles/main.scss'
 import laughing from './assets/laughing.svg'
 import 'bootstrap';
-import 'bootstrap/functions';
+
 
 const laughImg = document.getElementById('laughImg')
 laughImg.src = laughing
