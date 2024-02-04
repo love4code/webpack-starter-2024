@@ -305,14 +305,20 @@
           <span class="input-group-text">
             Favorite Color
           </span>
-          <select>
-            <option selected>Select Favorite Color</option>
+          <select class="form-select form-select-lg">
+            <option value="1" selected>Red</option>
+            <option value="2" selected>Blue</option>
+            <option value="3" selected>Yellow</option>
+            <option value="4" selected>Black</option>
+          </select>
+          <select class="form-select form-select-sm">
             <option value="1" selected>Red</option>
             <option value="2" selected>Blue</option>
             <option value="3" selected>Yellow</option>
             <option value="4" selected>Black</option>
           </select>
         </div>
+
         <div class="form-check pb-1">
           <input checked type="checkbox" value="" id="flexCheckDefault" class="form-check-input">
           <label for="flexCheckDefault">Cool</label>
@@ -321,20 +327,19 @@
           <input type="checkbox" class="form-check-input" id="flexCheckBox">
           <label for="flexCheckBox">Not Cool</label>
         </div>
-        <div class="form-check pb-1">
+        <div class="form-check form-switch pb-1">
           <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
           <label class="form-check-label" for="flexRadioDefault1">
             Default radio
           </label>
         </div>
-        <div class="form-check pb-1">
+        <div class="form-check form-switch pb-1">
           <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
           <label class="form-check-label" for="flexRadioDefault2">
             Default checked radio
           </label>
         </div>
         <input type="submit" class="form-control bg-danger pb-1">
-
       </div>
     </div>
   </div>
@@ -353,8 +358,14 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-4 pt-5">Copy right 2024</div>
-        <div class="col-4 pt-5"><address>12 Danforth Way \n
-                                    Franklin Ma 02038</address></div>
+        <div class="col-4 pt-5">
+          <pre>
+            <address>
+              12 Danforth Way
+              Franklin Ma 02038
+            </address>
+          </pre>
+        </div>
         <div class="col-4 pt-5">
           <ul class="list-group pb-5">
             <li style="border: none;" class="list-group-item bg-black text-light"><a style="text-decoration: none;" href="#">Home</a></li>
